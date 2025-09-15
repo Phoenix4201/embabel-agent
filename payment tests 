@@ -1,0 +1,27 @@
+Your pairing code is: enjoy-enough-outwit-win
+This pairing code verifies your authentication with Stripe.
+Press Enter to open the browser or visit https://dashboard.stripe.com/stripecli/confirm_auth?t=THQdJfL3x12udFkNorJL8OF1iFlN8Az1 (^C to quit){
+  "id": "qry_0RHnkR589O8KAxCGsLQqzkd0",
+  "object": "sigma.sigma_query_run",
+  "created": 1745593263,
+  "error": null,
+  "finalized_at": null,
+  "livemode": true,
+  "result": {
+    "file": null
+  },
+  "sql": "SELECT * FROM balance_transactions LIMIT 10",
+  "status": "running"
+}curl https://api.stripe.com/v1/sigma/query_runs/qry_0RHnkR589O8KAxCGsLQqzkd0 -X GET -H "Authorization: Bearer ${SIGMA_API_KEY}"{
+  "id": "qry_0RHnkR589O8KAxCGsLQqzkd0",
+  "object": "sigma.sigma_query_run",
+  "created": 1745593263,
+  "error": null,
+  "finalized_at": 1745593273,
+  "livemode": true,
+  "result": {
+    "file": "file_0RHnkb589O8KAxCGYVDkVc5V"
+  },
+  "sql": "SELECT * FROM balance_transactions LIMIT 10",
+  "status": "succeeded"
+}curl --output file_0RHnkb589O8KAxCGYVDkVc5V.csv https://files.stripe.com/v1/files/file_0RHnkb589O8KAxCGYVDkVc5V/contents -X GET -H "Authorization: Bearer ${SIGMA_API_KEY}"curl https://api.stripe.com/v1/sigma/saved_queries -X POST -d sql="SELECT * FROM balance_transactions LIMIT 10" -H "Authorization: Bearer ${SIGMA_API_KEY}"curl https://api.stripe.com/v1/sigma/saved_queries/qfl_0RHnkR589O8KAxCGsLQqzkd0 -X POST -d sql="SELECT * FROM balance_transactions WHERE created >= timestamp '2025-04-01' LIMIT 10" -H "Authorization: Bearer ${SIGMA_API_KEY}"curl https://api.stripe.com/v1/sigma/saved_queries/qfl_0RHnkR589O8KAxCGsLQqzkd0 -X GET -H "Authorization: Bearer ${SIGMA_API_KEY}"curl https://api.stripe.com/v1/sigma/saved_queries/qfl_0RHnkR589O8KAxCGsLQqzkd0 -X DELETE -H "Authorization: Bearer ${SIGMA_API_KEY}"curl https://api.stripe.com/v1/sigma/query_runs -X POST -d from_saved_query="qfl_0RHnRX589O8KAxCGD5v78Gn4" -H "Authorization: Bearer ${SIGMA_API_KEY}"curl https://api.stripe.com/v1/sigma/query_runs -X POST  -d sql="SELECT * FROM balance_transactions LIMIT 10" -H "Authorization: Bearer ${SIGMA_API_KEY}"curl --output file_0RHnkb589O8KAxCGYVDkVc5V.csv https://files.stripe.com/v1/files/file_0RHnkb589O8KAxCGYVDkVc5V/contents  -X GET -H "Authorization: Bearer ${SIGMA_API_KEY}"
