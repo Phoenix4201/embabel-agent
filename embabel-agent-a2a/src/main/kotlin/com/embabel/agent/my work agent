@@ -1,0 +1,729 @@
+# Recipes Introduction
+
+> Ready-to-use integrations and tutorials to help you build faster with Dynamic
+
+## Welcome to Dynamic Recipes
+
+Discover ready-to-use integrations, tutorials, and guides that help you build powerful web3 applications faster. Each recipe provides step-by-step instructions, code examples, and best practices for integrating Dynamic with popular protocols, frameworks, and services.
+
+Whether you're building stablecoin applications, integrating DeFi protocols, or creating cross-chain experiences, our recipes will help you get started quickly and efficiently.
+
+***
+
+## Stablecoin Accounts
+
+Build global stablecoin applications with enterprise-grade security and speed.
+
+<Columns cols={2}>
+  <Card title="Building with Stablecoin Accounts" href="/stablecoins/quick-start">
+    Launch global stablecoin accounts in days, not months. All with enterprise-grade security and the speed your users deserve.
+  </Card>
+
+  <Card title="Sending USDC" href="/stablecoins/sending-usdc">
+    Learn how to send USDC between wallets using Dynamic's embedded wallets and transaction simulation.
+  </Card>
+
+  <Card title="Buying USDC" href="/stablecoins/buy-usdc">
+    Enable users to buy USDC with fiat currency using integrated on-ramp services.
+  </Card>
+
+  <Card title="Receiving USDC" href="/stablecoins/receive-usdc">
+    Create seamless USDC receiving experiences with QR codes and wallet address sharing.
+  </Card>
+</Columns>
+
+***
+
+## DeFi & Yield
+
+Integrate with leading DeFi protocols to offer yield-earning opportunities to your users.
+
+<Columns cols={2}>
+  <Card title="Earn Yield with Aave" href="/guides/integrations/aave">
+    Build a complete Aave V3 integration with supply, borrow, repay, and withdraw functionality using Dynamic's MPC wallets.
+  </Card>
+
+  <Card title="Earn Yield with Morpho" href="/guides/integrations/morpho">
+    Integrate Morpho's peer-to-peer lending protocol to offer competitive yields and borrowing rates.
+  </Card>
+</Columns>
+
+***
+
+## Cross-Chain & Swaps
+
+Enable seamless token swaps and cross-chain transactions.
+
+<Columns cols={2}>
+  <Card title="Cross-Chain Swaps with LI.FI" href="/guides/integrations/lifi">
+    Integrate LI.FI's cross-chain bridge aggregator for seamless multi-chain token swaps with optimal routing.
+  </Card>
+</Columns>
+
+***
+
+## Server Wallets
+
+Build server-side wallet management workflows.
+
+<Columns cols={2}>
+  <Card title="Omnibus Sweep" href="/guides/integrations/omnibus-sweep">
+    Create customer wallets, mint USDC gaslessly, and sweep to an omnibus account.
+  </Card>
+</Columns>
+
+## Social & Identity
+
+Integrate with social platforms and identity verification services.
+
+<Columns cols={2}>
+  <Card title="World ID Mini App" href="/guides/integrations/world-id/world-id-mini-app">
+    Build a Telegram mini app that integrates World ID for privacy-preserving identity verification.
+  </Card>
+</Columns>
+
+***
+
+## Farcaster Integration
+
+Build on Farcaster, the decentralized social protocol.
+
+<Columns cols={3}>
+  <Card title="Farcaster Overview" href="/guides/integrations/farcaster/farcaster-overview">
+    Get started with Farcaster integration and understand the decentralized social protocol.
+  </Card>
+
+  <Card title="Sign In with Farcaster" href="/guides/integrations/farcaster/sign-in-with-farcaster">
+    Implement Farcaster authentication to let users sign in with their Farcaster accounts.
+  </Card>
+
+  <Card title="Farcaster Write Access" href="/guides/integrations/farcaster/farcaster-write-access">
+    Enable users to post and interact with Farcaster content from your application.
+  </Card>
+
+  <Card title="Embedded Wallet Frame" href="/guides/integrations/farcaster/embedded-wallet-frame">
+    Create Farcaster frames with embedded wallet functionality for seamless web3 experiences.
+  </Card>
+
+  <Card title="Farcaster Mini Apps" href="/guides/integrations/farcaster/mini-apps">
+    Build mini applications that integrate seamlessly with the Farcaster ecosystem.
+  </Card>
+</Columns>
+
+***
+
+## Telegram Integration
+
+Build Telegram bots and mini apps with Dynamic.
+
+<Columns cols={3}>
+  <Card title="Telegram Mini App" href="/guides/integrations/telegram/telegram-mini-app">
+    Create Telegram mini apps with embedded wallet functionality for seamless web3 experiences.
+  </Card>
+
+  <Card title="Telegram Auto Wallets" href="/guides/integrations/telegram/telegram-auto-wallets">
+    Automatically create and manage wallets for Telegram users with seamless authentication.
+  </Card>
+
+  <Card title="Telegram Server Wallets & Bots" href="/guides/integrations/telegram/telegram-server-wallets-bots">
+    Build Telegram bots with server-side wallet management for advanced web3 functionality.
+  </Card>
+</Columns>
+
+***
+
+## Payment Solutions
+
+Integrate payment solutions for seamless transactions.
+
+<Columns cols={2}>
+  <Card title="Pay with Crypto" href="/guides/integrations/payWithCrypto/pay-with-crypto">
+    Integrate Dynamic's payment solution for seamless crypto payments and transactions.
+  </Card>
+</Columns>
+
+***
+
+## Framework Integrations
+
+Integrate Dynamic with popular frameworks and development tools.
+
+<Columns cols={3}>
+  <Card title="NextAuth Integration" href="/guides/frameworks/next-auth">
+    Integrate Dynamic with NextAuth.js for seamless authentication in Next.js applications.
+  </Card>
+
+  <Card title="Web3 DApp Template" href="/guides/frameworks/web3-dapp">
+    Use our Web3 DApp template to quickly bootstrap decentralized applications with Dynamic.
+  </Card>
+
+  <Card title="React PWA" href="/guides/frameworks/react-pwa">
+    Build progressive web applications with React and Dynamic for enhanced user experiences.
+  </Card>
+
+  <Card title="Anchor Framework" href="/guides/frameworks/anchor">
+    Integrate Dynamic with Anchor framework for Solana development and smart contract interactions.
+  </Card>
+
+  <Card title="Safe App Integration" href="/guides/integrations/safe-app">
+    Build Safe apps that integrate with Dynamic for enhanced wallet security and management.
+  </Card>
+</Columns>
+
+***
+
+## Chains
+
+Integrations with specific blockchains and Layer 2 networks.
+
+<Columns cols={2}>
+  <Card title="Onboard Users to Flow" href="/guides/chains/flow">
+    A guide to integrating Dynamic for user authentication, onboarding, and embedded wallets on Flow L1 and Flow EVM.
+  </Card>
+
+  <Card title="Onboard Users to Linera" href="/guides/chains/linera">
+    Integrate Dynamic with Linera for user authentication, onboarding, and embedded wallets.
+  </Card>
+</Columns>
+
+***
+
+## Webhook Guides
+
+Set up webhooks for real-time event handling and integrations.
+
+<Columns cols={3}>
+  <Card title="Webhook Signature Validation" href="/guides/webhooks-signature-validation">
+    Learn how to validate webhook signatures to ensure secure and authentic event handling.
+  </Card>
+
+  <Card title="Webhook CRM Integration" href="/guides/webhooks-crm">
+    Integrate Dynamic webhooks with CRM systems for automated user management and tracking.
+  </Card>
+
+  <Card title="Serverless Webhooks" href="/guides/webhooks-serverless">
+    Deploy webhook handlers using serverless functions for scalable event processing.
+  </Card>
+
+  <Card title="Slack Webhook Integration" href="/guides/webhooks-slack">
+    Send Dynamic events to Slack channels for real-time notifications and team collaboration.
+  </Card>
+
+  <Card title="XMTP Webhook Integration" href="/guides/webhooks-xmtp">
+    Integrate Dynamic webhooks with XMTP for decentralized messaging and communication.
+  </Card>
+</Columns>
+
+***
+
+## Transaction Protection
+
+Secure your users' transactions with advanced protection features.
+
+<Columns cols={2}>
+  <Card title="Shield 3 Integration" href="/guides/integrations/shield-3">
+    Protect your users from malicious transactions and scams with Shield 3's advanced security features.
+  </Card>
+</Columns>
+
+***
+
+## Need Help?
+
+* Join our [Slack community](https://dynamic.xyz/slack) for real-time support
+* Check out our [documentation](/introduction/welcome) for comprehensive guides
+* Book a call with our team: [Schedule a consultation](https://www.dynamic.xyz/talk-to-us)
+
+## Contributing
+
+Have a great integration idea? We'd love to see your recipes! Share your implementations with the community and help others build faster.
+
+***
+
+**Start building today** and create amazing web3 experiences with Dynamic Recipes! 🚀
+# Recipes Introduction
+
+> Ready-to-use integrations and tutorials to help you build faster with Dynamic
+
+## Welcome to Dynamic Recipes
+
+Discover ready-to-use integrations, tutorials, and guides that help you build powerful web3 applications faster. Each recipe provides step-by-step instructions, code examples, and best practices for integrating Dynamic with popular protocols, frameworks, and services.
+
+Whether you're building stablecoin applications, integrating DeFi protocols, or creating cross-chain experiences, our recipes will help you get started quickly and efficiently.
+
+***
+
+## Stablecoin Accounts
+
+Build global stablecoin applications with enterprise-grade security and speed.
+
+<Columns cols={2}>
+  <Card title="Building with Stablecoin Accounts" href="/stablecoins/quick-start">
+    Launch global stablecoin accounts in days, not months. All with enterprise-grade security and the speed your users deserve.
+  </Card>
+
+  <Card title="Sending USDC" href="/stablecoins/sending-usdc">
+    Learn how to send USDC between wallets using Dynamic's embedded wallets and transaction simulation.
+  </Card>
+
+  <Card title="Buying USDC" href="/stablecoins/buy-usdc">
+    Enable users to buy USDC with fiat currency using integrated on-ramp services.
+  </Card>
+
+  <Card title="Receiving USDC" href="/stablecoins/receive-usdc">
+    Create seamless USDC receiving experiences with QR codes and wallet address sharing.
+  </Card>
+</Columns>
+
+***
+
+## DeFi & Yield
+
+Integrate with leading DeFi protocols to offer yield-earning opportunities to your users.
+
+<Columns cols={2}>
+  <Card title="Earn Yield with Aave" href="/guides/integrations/aave">
+    Build a complete Aave V3 integration with supply, borrow, repay, and withdraw functionality using Dynamic's MPC wallets.
+  </Card>
+
+  <Card title="Earn Yield with Morpho" href="/guides/integrations/morpho">
+    Integrate Morpho's peer-to-peer lending protocol to offer competitive yields and borrowing rates.
+  </Card>
+</Columns>
+
+***
+
+## Cross-Chain & Swaps
+
+Enable seamless token swaps and cross-chain transactions.
+
+<Columns cols={2}>
+  <Card title="Cross-Chain Swaps with LI.FI" href="/guides/integrations/lifi">
+    Integrate LI.FI's cross-chain bridge aggregator for seamless multi-chain token swaps with optimal routing.
+  </Card>
+</Columns>
+
+***
+
+## Server Wallets
+
+Build server-side wallet management workflows.
+
+<Columns cols={2}>
+  <Card title="Omnibus Sweep" href="/guides/integrations/omnibus-sweep">
+    Create customer wallets, mint USDC gaslessly, and sweep to an omnibus account.
+  </Card>
+</Columns>
+
+## Social & Identity
+
+Integrate with social platforms and identity verification services.
+
+<Columns cols={2}>
+  <Card title="World ID Mini App" href="/guides/integrations/world-id/world-id-mini-app">
+    Build a Telegram mini app that integrates World ID for privacy-preserving identity verification.
+  </Card>
+</Columns>
+
+***
+
+## Farcaster Integration
+
+Build on Farcaster, the decentralized social protocol.
+
+<Columns cols={3}>
+  <Card title="Farcaster Overview" href="/guides/integrations/farcaster/farcaster-overview">
+    Get started with Farcaster integration and understand the decentralized social protocol.
+  </Card>
+
+  <Card title="Sign In with Farcaster" href="/guides/integrations/farcaster/sign-in-with-farcaster">
+    Implement Farcaster authentication to let users sign in with their Farcaster accounts.
+  </Card>
+
+  <Card title="Farcaster Write Access" href="/guides/integrations/farcaster/farcaster-write-access">
+    Enable users to post and interact with Farcaster content from your application.
+  </Card>
+
+  <Card title="Embedded Wallet Frame" href="/guides/integrations/farcaster/embedded-wallet-frame">
+    Create Farcaster frames with embedded wallet functionality for seamless web3 experiences.
+  </Card>
+
+  <Card title="Farcaster Mini Apps" href="/guides/integrations/farcaster/mini-apps">
+    Build mini applications that integrate seamlessly with the Farcaster ecosystem.
+  </Card>
+</Columns>
+
+***
+
+## Telegram Integration
+
+Build Telegram bots and mini apps with Dynamic.
+
+<Columns cols={3}>
+  <Card title="Telegram Mini App" href="/guides/integrations/telegram/telegram-mini-app">
+    Create Telegram mini apps with embedded wallet functionality for seamless web3 experiences.
+  </Card>
+
+  <Card title="Telegram Auto Wallets" href="/guides/integrations/telegram/telegram-auto-wallets">
+    Automatically create and manage wallets for Telegram users with seamless authentication.
+  </Card>
+
+  <Card title="Telegram Server Wallets & Bots" href="/guides/integrations/telegram/telegram-server-wallets-bots">
+    Build Telegram bots with server-side wallet management for advanced web3 functionality.
+  </Card>
+</Columns>
+
+***
+
+## Payment Solutions
+
+Integrate payment solutions for seamless transactions.
+
+<Columns cols={2}>
+  <Card title="Pay with Crypto" href="/guides/integrations/payWithCrypto/pay-with-crypto">
+    Integrate Dynamic's payment solution for seamless crypto payments and transactions.
+  </Card>
+</Columns>
+
+***
+
+## Framework Integrations
+
+Integrate Dynamic with popular frameworks and development tools.
+
+<Columns cols={3}>
+  <Card title="NextAuth Integration" href="/guides/frameworks/next-auth">
+    Integrate Dynamic with NextAuth.js for seamless authentication in Next.js applications.
+  </Card>
+
+  <Card title="Web3 DApp Template" href="/guides/frameworks/web3-dapp">
+    Use our Web3 DApp template to quickly bootstrap decentralized applications with Dynamic.
+  </Card>
+
+  <Card title="React PWA" href="/guides/frameworks/react-pwa">
+    Build progressive web applications with React and Dynamic for enhanced user experiences.
+  </Card>
+
+  <Card title="Anchor Framework" href="/guides/frameworks/anchor">
+    Integrate Dynamic with Anchor framework for Solana development and smart contract interactions.
+  </Card>
+
+  <Card title="Safe App Integration" href="/guides/integrations/safe-app">
+    Build Safe apps that integrate with Dynamic for enhanced wallet security and management.
+  </Card>
+</Columns>
+
+***
+
+## Chains
+
+Integrations with specific blockchains and Layer 2 networks.
+
+<Columns cols={2}>
+  <Card title="Onboard Users to Flow" href="/guides/chains/flow">
+    A guide to integrating Dynamic for user authentication, onboarding, and embedded wallets on Flow L1 and Flow EVM.
+  </Card>
+
+  <Card title="Onboard Users to Linera" href="/guides/chains/linera">
+    Integrate Dynamic with Linera for user authentication, onboarding, and embedded wallets.
+  </Card>
+</Columns>
+
+***
+
+## Webhook Guides
+
+Set up webhooks for real-time event handling and integrations.
+
+<Columns cols={3}>
+  <Card title="Webhook Signature Validation" href="/guides/webhooks-signature-validation">
+    Learn how to validate webhook signatures to ensure secure and authentic event handling.
+  </Card>
+
+  <Card title="Webhook CRM Integration" href="/guides/webhooks-crm">
+    Integrate Dynamic webhooks with CRM systems for automated user management and tracking.
+  </Card>
+
+  <Card title="Serverless Webhooks" href="/guides/webhooks-serverless">
+    Deploy webhook handlers using serverless functions for scalable event processing.
+  </Card>
+
+  <Card title="Slack Webhook Integration" href="/guides/webhooks-slack">
+    Send Dynamic events to Slack channels for real-time notifications and team collaboration.
+  </Card>
+
+  <Card title="XMTP Webhook Integration" href="/guides/webhooks-xmtp">
+    Integrate Dynamic webhooks with XMTP for decentralized messaging and communication.
+  </Card>
+</Columns>
+
+***
+
+## Transaction Protection
+
+Secure your users' transactions with advanced protection features.
+
+<Columns cols={2}>
+  <Card title="Shield 3 Integration" href="/guides/integrations/shield-3">
+    Protect your users from malicious transactions and scams with Shield 3's advanced security features.
+  </Card>
+</Columns>
+
+***
+
+## Need Help?
+
+* Join our [Slack community](https://dynamic.xyz/slack) for real-time support
+* Check out our [documentation](/introduction/welcome) for comprehensive guides
+* Book a call with our team: [Schedule a consultation](https://www.dynamic.xyz/talk-to-us)
+
+## Contributing
+
+Have a great integration idea? We'd love to see your recipes! Share your implementations with the community and help others build faster.
+
+***
+
+**Start building today** and create amazing web3 experiences with Dynamic Recipes! 🚀
+# Recipes Introduction
+
+> Ready-to-use integrations and tutorials to help you build faster with Dynamic
+
+## Welcome to Dynamic Recipes
+
+Discover ready-to-use integrations, tutorials, and guides that help you build powerful web3 applications faster. Each recipe provides step-by-step instructions, code examples, and best practices for integrating Dynamic with popular protocols, frameworks, and services.
+
+Whether you're building stablecoin applications, integrating DeFi protocols, or creating cross-chain experiences, our recipes will help you get started quickly and efficiently.
+
+***
+
+## Stablecoin Accounts
+
+Build global stablecoin applications with enterprise-grade security and speed.
+
+<Columns cols={2}>
+  <Card title="Building with Stablecoin Accounts" href="/stablecoins/quick-start">
+    Launch global stablecoin accounts in days, not months. All with enterprise-grade security and the speed your users deserve.
+  </Card>
+
+  <Card title="Sending USDC" href="/stablecoins/sending-usdc">
+    Learn how to send USDC between wallets using Dynamic's embedded wallets and transaction simulation.
+  </Card>
+
+  <Card title="Buying USDC" href="/stablecoins/buy-usdc">
+    Enable users to buy USDC with fiat currency using integrated on-ramp services.
+  </Card>
+
+  <Card title="Receiving USDC" href="/stablecoins/receive-usdc">
+    Create seamless USDC receiving experiences with QR codes and wallet address sharing.
+  </Card>
+</Columns>
+
+***
+
+## DeFi & Yield
+
+Integrate with leading DeFi protocols to offer yield-earning opportunities to your users.
+
+<Columns cols={2}>
+  <Card title="Earn Yield with Aave" href="/guides/integrations/aave">
+    Build a complete Aave V3 integration with supply, borrow, repay, and withdraw functionality using Dynamic's MPC wallets.
+  </Card>
+
+  <Card title="Earn Yield with Morpho" href="/guides/integrations/morpho">
+    Integrate Morpho's peer-to-peer lending protocol to offer competitive yields and borrowing rates.
+  </Card>
+</Columns>
+
+***
+
+## Cross-Chain & Swaps
+
+Enable seamless token swaps and cross-chain transactions.
+
+<Columns cols={2}>
+  <Card title="Cross-Chain Swaps with LI.FI" href="/guides/integrations/lifi">
+    Integrate LI.FI's cross-chain bridge aggregator for seamless multi-chain token swaps with optimal routing.
+  </Card>
+</Columns>
+
+***
+
+## Server Wallets
+
+Build server-side wallet management workflows.
+
+<Columns cols={2}>
+  <Card title="Omnibus Sweep" href="/guides/integrations/omnibus-sweep">
+    Create customer wallets, mint USDC gaslessly, and sweep to an omnibus account.
+  </Card>
+</Columns>
+
+## Social & Identity
+
+Integrate with social platforms and identity verification services.
+
+<Columns cols={2}>
+  <Card title="World ID Mini App" href="/guides/integrations/world-id/world-id-mini-app">
+    Build a Telegram mini app that integrates World ID for privacy-preserving identity verification.
+  </Card>
+</Columns>
+
+***
+
+## Farcaster Integration
+
+Build on Farcaster, the decentralized social protocol.
+
+<Columns cols={3}>
+  <Card title="Farcaster Overview" href="/guides/integrations/farcaster/farcaster-overview">
+    Get started with Farcaster integration and understand the decentralized social protocol.
+  </Card>
+
+  <Card title="Sign In with Farcaster" href="/guides/integrations/farcaster/sign-in-with-farcaster">
+    Implement Farcaster authentication to let users sign in with their Farcaster accounts.
+  </Card>
+
+  <Card title="Farcaster Write Access" href="/guides/integrations/farcaster/farcaster-write-access">
+    Enable users to post and interact with Farcaster content from your application.
+  </Card>
+
+  <Card title="Embedded Wallet Frame" href="/guides/integrations/farcaster/embedded-wallet-frame">
+    Create Farcaster frames with embedded wallet functionality for seamless web3 experiences.
+  </Card>
+
+  <Card title="Farcaster Mini Apps" href="/guides/integrations/farcaster/mini-apps">
+    Build mini applications that integrate seamlessly with the Farcaster ecosystem.
+  </Card>
+</Columns>
+
+***
+
+## Telegram Integration
+
+Build Telegram bots and mini apps with Dynamic.
+
+<Columns cols={3}>
+  <Card title="Telegram Mini App" href="/guides/integrations/telegram/telegram-mini-app">
+    Create Telegram mini apps with embedded wallet functionality for seamless web3 experiences.
+  </Card>
+
+  <Card title="Telegram Auto Wallets" href="/guides/integrations/telegram/telegram-auto-wallets">
+    Automatically create and manage wallets for Telegram users with seamless authentication.
+  </Card>
+
+  <Card title="Telegram Server Wallets & Bots" href="/guides/integrations/telegram/telegram-server-wallets-bots">
+    Build Telegram bots with server-side wallet management for advanced web3 functionality.
+  </Card>
+</Columns>
+
+***
+
+## Payment Solutions
+
+Integrate payment solutions for seamless transactions.
+
+<Columns cols={2}>
+  <Card title="Pay with Crypto" href="/guides/integrations/payWithCrypto/pay-with-crypto">
+    Integrate Dynamic's payment solution for seamless crypto payments and transactions.
+  </Card>
+</Columns>
+
+***
+
+## Framework Integrations
+
+Integrate Dynamic with popular frameworks and development tools.
+
+<Columns cols={3}>
+  <Card title="NextAuth Integration" href="/guides/frameworks/next-auth">
+    Integrate Dynamic with NextAuth.js for seamless authentication in Next.js applications.
+  </Card>
+
+  <Card title="Web3 DApp Template" href="/guides/frameworks/web3-dapp">
+    Use our Web3 DApp template to quickly bootstrap decentralized applications with Dynamic.
+  </Card>
+
+  <Card title="React PWA" href="/guides/frameworks/react-pwa">
+    Build progressive web applications with React and Dynamic for enhanced user experiences.
+  </Card>
+
+  <Card title="Anchor Framework" href="/guides/frameworks/anchor">
+    Integrate Dynamic with Anchor framework for Solana development and smart contract interactions.
+  </Card>
+
+  <Card title="Safe App Integration" href="/guides/integrations/safe-app">
+    Build Safe apps that integrate with Dynamic for enhanced wallet security and management.
+  </Card>
+</Columns>
+
+***
+
+## Chains
+
+Integrations with specific blockchains and Layer 2 networks.
+
+<Columns cols={2}>
+  <Card title="Onboard Users to Flow" href="/guides/chains/flow">
+    A guide to integrating Dynamic for user authentication, onboarding, and embedded wallets on Flow L1 and Flow EVM.
+  </Card>
+
+  <Card title="Onboard Users to Linera" href="/guides/chains/linera">
+    Integrate Dynamic with Linera for user authentication, onboarding, and embedded wallets.
+  </Card>
+</Columns>
+
+***
+
+## Webhook Guides
+
+Set up webhooks for real-time event handling and integrations.
+
+<Columns cols={3}>
+  <Card title="Webhook Signature Validation" href="/guides/webhooks-signature-validation">
+    Learn how to validate webhook signatures to ensure secure and authentic event handling.
+  </Card>
+
+  <Card title="Webhook CRM Integration" href="/guides/webhooks-crm">
+    Integrate Dynamic webhooks with CRM systems for automated user management and tracking.
+  </Card>
+
+  <Card title="Serverless Webhooks" href="/guides/webhooks-serverless">
+    Deploy webhook handlers using serverless functions for scalable event processing.
+  </Card>
+
+  <Card title="Slack Webhook Integration" href="/guides/webhooks-slack">
+    Send Dynamic events to Slack channels for real-time notifications and team collaboration.
+  </Card>
+
+  <Card title="XMTP Webhook Integration" href="/guides/webhooks-xmtp">
+    Integrate Dynamic webhooks with XMTP for decentralized messaging and communication.
+  </Card>
+</Columns>
+
+***
+
+## Transaction Protection
+
+Secure your users' transactions with advanced protection features.
+
+<Columns cols={2}>
+  <Card title="Shield 3 Integration" href="/guides/integrations/shield-3">
+    Protect your users from malicious transactions and scams with Shield 3's advanced security features.
+  </Card>
+</Columns>
+
+***
+
+## Need Help?
+
+* Join our [Slack community](https://dynamic.xyz/slack) for real-time support
+* Check out our [documentation](/introduction/welcome) for comprehensive guides
+* Book a call with our team: [Schedule a consultation](https://www.dynamic.xyz/talk-to-us)
+
+## Contributing
+
+Have a great integration idea? We'd love to see your recipes! Share your implementations with the community and help others build faster.
+
+***
+
+**Start building today** and create amazing web3 experiences with Dynamic Recipes! 🚀
